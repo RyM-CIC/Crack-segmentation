@@ -4,7 +4,7 @@ Pavement cracks are an increasing threat for public safety. Automatic pavement c
 
 This repository includes the necessary files to execute the best segmentation model presented in the article, as well as the modified VGG16 model for segmentation.
 
-The input images must be of size 320x480 and the ground true label must contain the segmented crack in a color format [255,0,255].
+The input images must be of size 320x480 and the ground true label must contain the segmented crack in a RGB color format [255,0,255].
 
 The programming of these FCNN was done using a GTX 980 TI GPU, using the Keras and TensorFlow libraries.
 
